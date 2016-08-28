@@ -1,14 +1,97 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700";
 header .title-wrap {
-  padding: 40px; }
+  padding: 70px; }
   header .title-wrap h1 {
-    font-size: 60px;
-    font-weight: 700;
-    font-family: 70px;
-    width: 450px; }
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    font-family: "Raleway", sans-serif;
+    color: #383838; }
+
+nav.global {
+  padding: 30px;
+  margin: 0; }
+  nav.global a {
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif; }
+    nav.global a:hover {
+      color: #58c9b9; }
+  nav.global .logo {
+    padding: 20px;
+    margin: 0;
+    color: white;
+    background: #58c9b9;
+    height: 20px;
+    width: 20px; }
+
+section.what-we-do .flex-unit {
+  padding: 20px;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+  section.what-we-do .flex-unit h3 {
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Raleway",sans-serif;
+    padding-top: 20px;
+    margin: 0;
+    letter-spacing: 1.3px; }
+  section.what-we-do .flex-unit p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.8em; }
+  section.what-we-do .flex-unit .fa {
+    border-radius: 50%;
+    background-color: whitesmoke;
+    padding: 20px;
+    color: #58c9b9; }
+    section.what-we-do .flex-unit .fa:hover {
+      color: white;
+      background-color: #58c9b9; }
+
+section.meet-the-team {
+  background: whitesmoke; }
+  section.meet-the-team .para-wrap {
+    padding: 70px; }
+    section.meet-the-team .para-wrap p {
+      line-height: 1.9em;
+      width: 500px;
+      padding: 30px 0;
+      font-weight: 300; }
+    section.meet-the-team .para-wrap .btn {
+      background: #58c9b9;
+      padding: 20px 60px;
+      color: white;
+      font-weight: bold; }
+    section.meet-the-team .para-wrap h2 {
+      text-transform: uppercase;
+      font-family: "Raleway", sans-serif;
+      margin: 0;
+      padding: 0; }
+
+* {
+  box-sizing: border-box;
+  -webkit-transition: .75s ease-in-out all;
+          transition: .75s ease-in-out all; }
 
 body {
-  font-family: "Lato",sans-serif;
+  font-family: "Source Sans Pro",sans-serif;
   margin: 0;
   padding: 0; }
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px; }
 
 /*# sourceMappingURL=main.css.map */
