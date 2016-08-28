@@ -2,23 +2,25 @@ doctype html
 head
   meta(charset="utf-8")
   title Home
+    
   link(rel="stylesheet", href="css/main.css", media="screen", title="no title")
   link(rel="stylesheet", href="bower_components/flex-class/flex.css", media="screen", title="no title")
   link(rel="stylesheet", href="bower_components/font-awesome/css/font-awesome.min.css", media="screen", title="no title")
   script(type="text/javascript",src="bower_components/jquery/dist/jquery.min.js")
   link(href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet")
+  script(type="text/javascript",src="js/script.js")
+  link(rel="stylesheet", href="bower_components/animate.css/animate.min.css", media="screen", title="no title")
   
+    
   
 body
-  nav.global.flex.flex--space-between.align-center
-    .logo.flex.flex--center.align-center
-      h2 A
+  nav.global.flex.flex--end.align-center
     .nav-wrapper.flex.flex--end.align-end
-      a(href="") Home
-      a(href="") About
-      a(href="") Services
-      a(href="") Team
-      a(href="") Clients
+      a.link(href="") Home
+      a.link(href="") About
+      a.link(href="") Services
+      a.link(href="") Team
+      a.link(href="") Clients
   header.flex.flex--center.align-center.columns
     .title-wrap
       h1 Welcome To Asset Chemist
@@ -39,9 +41,37 @@ body
       i.fa.fa-connectdevelop
       h3 Global Strategy
       p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, sed.
-  
+  section.mission-statement
+    .overlay.flex.flex--center.align-center.columns
+      h1 OUR MISSION STATEMENT
+      h3 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, quis."
   section.meet-the-team.flex.flex--start.align-start.rows
-    .para-wrap.flex.flex--start.align-start.columns
-      h2 Meet Our Company 
+    .para-wrap.flex.flex--start.align-start.columns.not-here
+      h2.not-here Meet Our Company 
       p  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. LOLUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. LOLDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      a.btn(href="",title="The Latest") SEE OUR LATEST WORK
+      a.btn.not-here(href="",title="Online Doctor") VIEW OUR ONLINE DOCTOR
+    .flex.flex--end.align-end
+      .img-holder.not-here
+  section.services.flex.flex--center.align-center.columns
+    h1 Our Services
+    .flex-lockup.flex.flex--center.align-center.rows
+      a.not-here.circle-icon.flex.flex--center.align-center(href="http://assetchemist.co.uk",title="Asset Chemist",target="blank")
+        .overlay.flex.flex--center.align-center
+          h1 Online Doctor
+      a.not-here.circle-icon.flex.flex--center.align-center(href="http://assetchemist.co.uk",title="Asset Chemist",target="blank")
+        .overlay.flex.flex--center.align-center
+          h1 Men's Health
+      a.not-here.circle-icon.flex.flex--center.align-center(href="http://assetchemist.co.uk",title="Asset Chemist",target="blank")
+        .overlay.flex.flex--center.align-center
+          h1 Women's Health
+      a.not-here.circle-icon.flex.flex--center.align-center(href="http://assetchemist.co.uk",title="Asset Chemist",target="blank")
+        .overlay.flex.flex--center.align-center
+          h1 Sexual Health Doctor
+  section.awards.flex.flex--space-around.align-center
+    i.fa.fa-forumbee.fa-2x
+    i.fa.fa-connectdevelop.fa-2x
+    i.fa.fa-empire.fa-2x
+    i.fa.fa-connectdevelop.fa-2x
+    i.fa.fa-connectdevelop.fa-2x
+    i.fa.fa-gg.fa-2x
+    i.fa.fa-bitbucket.fa-2x

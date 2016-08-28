@@ -11,7 +11,10 @@ $heading-color: rgba(56, 56, 56, 1);
 @import "nav";
 @import "what-we-do";
 @import "meet-us";
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700";
+@import "awards";
+@import "services";
+@import  "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700";
+@import "mission-statement";
 *{
   box-sizing: border-box;
   transition: .75s ease-in-out all;

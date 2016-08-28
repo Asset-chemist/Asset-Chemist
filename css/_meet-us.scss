@@ -1,7 +1,21 @@
 section.meet-the-team{
   background: $base-gray;
+  .img-holder{
+    width: 500px;
+    height: 500px;
+    border-radius: 4px;
+    transform: translateX(-100px);
+    opacity: 0;
+    background: {
+      size: cover;
+      position: center center;
+      image: url("https://download.fotolia.com/DownloadContent/2/7QX188yt8YoVKLJRjJaW013xYWEN1olz/Fotolia_107226054_Subscription_Monthly_M");
+    }
+  }
   .para-wrap{
     padding: 70px;
+        transform: translateX(-100px);
+        opacity: 0;
     p{
       line-height: 1.9em;
       width: 500px;
@@ -9,12 +23,16 @@ section.meet-the-team{
       font-weight: 300;
     }
     .btn{
+          transform: translateX(-100px);
+          opacity: 0;
       background: $accent-color;
       padding: 20px 60px;
       color: white;
       font-weight: bold;
     }
   h2{
+        transform: translateX(-100px);
+        opacity: 0;
     text-transform: uppercase;
     font-family: $btn-font;
     margin: 0;

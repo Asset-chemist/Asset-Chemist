@@ -1,0 +1,66 @@
+.services{
+  h1{
+    font-family: "Raleway",sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .circle-icon{
+    width: 260px;
+    height: 260px;
+    flex: 1;
+    margin: 10px;
+    opacity: 0;
+    transform: translateY(-30px);
+    border-radius: 50%;
+    position: relative;
+    &:hover{
+      border-radius: 10px;
+      cursor: pointer;
+      .overlay{
+        border-radius: 10px;
+        background: rgba(0,0,0,0.1);
+      }
+    }
+    .overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      background: rgba(0,0,0,0.4);
+    }
+    &:nth-child(2){
+      background-image: url("  https://download.fotolia.com/DownloadContent/2/4D4QdoeZ8VgEv33w4Zv204VcCvA0vzfp/Fotolia_118488013_Subscription_Monthly_M");
+      background-size: cover;
+      background-position: center center;
+    }
+    &:nth-child(3){
+      background-image: url("https://download.fotolia.com/DownloadContent/2/dFhG8Bgq3sfoe2zdPVxtbfvx5xr5oMbI/Fotolia_113292526_Subscription_Monthly_M");
+      background-size: cover;
+      background-position: center center;
+
+    }
+    &:nth-child(4){
+        background-image: url("https://download.fotolia.com/DownloadContent/2/yj8a0gUDwZxAB34zKZLaIA7cCVd0t2yh/Fotolia_118308664_Subscription_Monthly_M");
+        background-size: cover;
+        background-position: center center;
+
+    }
+    &:first-child{
+      background-image: url("https://download.fotolia.com/DownloadContent/2/Au8z17qOi479IbLPOAv4xIdxsEhwYXXY/Fotolia_103718697_Subscription_Monthly_M");
+      background-size: cover;
+      background-position: center center;
+    }
+    h1{
+      font-weight: 300;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: white;
+      font-family: $heading-font
+
+
+    }
+  }
+}
