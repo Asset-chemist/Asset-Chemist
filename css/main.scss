@@ -1,15 +1,32 @@
 $accent-color: rgba(88, 201, 185, 1);
-$heading-font: "Raleway",sans-serif;
+$heading-font: "Poppins",sans-serif;
 $heading-font-weight-lrg: 700;
 $heading-font-size-lrg: 60px;
 $heading-font-weight-sml: 300;
+$btn-font: "Raleway",sans-serif;
 $light-font: 300;
 $base-gray: rgba(245, 245, 245, 1);
 $heading-color: rgba(56, 56, 56, 1);
 @import "header";
 @import "nav";
+@import "what-we-do";
+@import "meet-us";
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700";
+*{
+  box-sizing: border-box;
+  transition: .75s ease-in-out all;
+}
 body{
-  font-family: "Lato",sans-serif;
+  font-family: "Source Sans Pro",sans-serif;
   margin: 0;
   padding: 0;
+}
+section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
 }
