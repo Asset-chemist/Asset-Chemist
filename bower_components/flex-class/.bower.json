@@ -1,0 +1,27 @@
+{
+  "name": "flex-class",
+  "authors": [
+    "HBTMedia <adenaikeyomi@gmail.com>"
+  ],
+  "description": "",
+  "main": "flex.css",
+  "license": "MIT",
+  "homepage": "https://github.com/HBT-Media/flex-class",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "29b9b98d29",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "29b9b98d29c79b0ff3a281c8196bde37654e7550"
+  },
+  "_source": "https://github.com/HBT-Media/flex-class.git",
+  "_target": "*",
+  "_originalSource": "flex-class",
+  "_direct": true
+}

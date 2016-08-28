@@ -1,0 +1,14 @@
+$accent-color: rgba(88, 201, 185, 1);
+$heading-font: "Raleway",sans-serif;
+$heading-font-weight-lrg: 700;
+$heading-font-size-lrg: 60px;
+$heading-font-weight-sml: 300;
+$light-font: 300;
+
+@import "header";
+@import "nav";
+body{
+  font-family: "Lato",sans-serif;
+  margin: 0;
+  padding: 0;
+}

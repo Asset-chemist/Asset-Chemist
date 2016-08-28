@@ -1,0 +1,17 @@
+{
+  "name": "flex-class",
+  "authors": [
+    "HBTMedia <adenaikeyomi@gmail.com>"
+  ],
+  "description": "",
+  "main": "flex.css",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
