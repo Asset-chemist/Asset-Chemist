@@ -3,7 +3,8 @@ header .title-wrap {
   header .title-wrap h1 {
     font-size: 60px;
     font-weight: 700;
-    font-family: "Raleway", sans-serif; }
+    font-family: 70px;
+    width: 450px; }
 
 body {
   font-family: "Lato",sans-serif;
